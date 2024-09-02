@@ -2,16 +2,13 @@ package dev.rinat.hibernateApp.model;
 
 import jakarta.persistence.*;
 
-//@Table(name = "person")
 @Entity
-@Table(name = "person2")
+@Table(name = "person")
 public class Person {
 
-    //    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column(name = "id")
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "person2_id_seq_generator")
-    @SequenceGenerator(name = "person2_id_seq_generator", sequenceName = "person2_id_seq", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(name = "name")

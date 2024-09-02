@@ -14,17 +14,15 @@ public class App {
         try {
             currentSession.beginTransaction();
 
-            Person person1 = new Person("Rinat", 25);
-            Person person2 = new Person("Mahmoud", 30);
-            Person person3 = new Person("Ali", 27);
-
-            currentSession.save(person1);
-            currentSession.save(person2);
-            currentSession.save(person3);
-
 //            Person person = currentSession.get(Person.class, 1);
-//            System.out.println(person.getName());
-//            System.out.println(person.getAge());
+//            person.setName("Rinat");
+
+//            Person person2 = currentSession.get(Person.class, 2);
+//            currentSession.remove(person2);
+
+            Person person3 = new Person("Rustam", 32);
+            currentSession.persist(person3);
+            System.out.println(person3.getId());
 
             currentSession.getTransaction().commit();
         } finally {

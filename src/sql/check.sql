@@ -1,3 +1,3 @@
-select * from person
+select * from person;
 
-select * from person2
+select * from person2;

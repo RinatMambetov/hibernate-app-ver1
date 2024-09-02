@@ -4,9 +4,11 @@ create table person(
     age int
 )
 
-insert into person(id, "name", age)
+insert into person("name", age)
 values
-(1, 'Tom', 20)
+('Tom', 20),
+('Jerry', 30),
+('Jack', 25)
 
 create table person2(
     id int primary key,
