@@ -8,7 +8,9 @@ insert into person("name", age)
 values
 ('Tom', 20),
 ('Jerry', 30),
-('Jack', 25)
+('Jack', 25),
+('Jim', 23),
+('Jane', 27)
 
 create table person2(
     id int primary key,
