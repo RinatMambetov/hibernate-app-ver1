@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab551237-d286-48e4-a4f2-a52840183595" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rinat/hibernateApp/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rinat/hibernateApp/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sql/check.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sql/create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sql/drop.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/rinat/hibernateApp/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rinat/hibernateApp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rinat/hibernateApp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/rinat/hibernateApp/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/rinat/hibernateApp/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql/check.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql/check.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql/drop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql/drop.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +58,11 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.rinat.hibernateApp.model" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

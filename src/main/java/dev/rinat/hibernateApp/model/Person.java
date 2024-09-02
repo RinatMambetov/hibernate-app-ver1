@@ -1,16 +1,17 @@
 package dev.rinat.hibernateApp.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
+//@Table(name = "person")
 @Entity
-@Table(name = "person")
+@Table(name = "person2")
 public class Person {
 
+    //    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "person2_id_seq_generator")
+    @SequenceGenerator(name = "person2_id_seq_generator", sequenceName = "person2_id_seq", allocationSize = 1)
     private int id;
 
     @Column(name = "name")
@@ -22,8 +23,7 @@ public class Person {
     public Person() {
     }
 
-    public Person(int id, String name, int age) {
-        this.id = id;
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
